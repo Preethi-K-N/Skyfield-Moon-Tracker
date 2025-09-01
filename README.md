@@ -65,10 +65,14 @@ The project loads the **DE421 ephemeris** from the Jet Propulsion Laboratory (JP
 
 ### 📐 _**Geocentric Elongation**_
 The core of the phase calculation is determining the **elongation**, which is the angle between the Sun and the Moon as seen from the center of the Earth.
-- **0° Elongation** = New Moon
-- **90° Elongation** = First Quarter
-- **180° Elongation** = Full Moon
-- **270° Elongation** = Last Quarter
+* **0° Elongation** = New Moon
+* **Waxing Crescent**: 0° to 90°
+* **90° Elongation** = First Quarter
+* **Waxing Gibbous**: 90° to 180°
+* **180° Elongation** = Full Moon
+* **Waning Gibbous**: 180° to 270°
+* **270° Elongation** = Last Quarter
+* **Waning Crescent**: 270° to 360°
 
 ### 💡 _**Illumination Formula**_
 The fraction of the Moon's visible surface that is illuminated is calculated using the phase angle ($i$, which is equivalent to the elongation).
@@ -103,16 +107,17 @@ Where `k` is the illuminated fraction (0 to 1) and `i` is the phase angle in rad
 ```
 Skyfield-Moon-Tracker
 │
-├── moon_tracker.py           # Main executable script
-├── requirements.txt          # Project dependencies
-├── generated_images/         # Automatically created output directory
-│   └── 2025-09-07_Sunday/    # Example date-stamped folder
+├── python moon_tracker.py           # Main executable script
+├── requirements.txt                 # Project dependencies
+├── generated_images/                # Automatically created output directory
+│   └── 2025-09-07_Sunday/           # Example date-stamped folder
 │       ├── 01_Comprehensive_Moon_Analysis.png
 │       ├── 02_NASA_Moon_Image.jpg
 │       └── 03_Moon_Info.txt
 │
-├── LICENSE                   # Project license file
-└── README.md                 # This file
+├── architecture.md                  # System architecture diagram and details
+├── LICENSE                          # Project license file
+└── README.md                        # This file
 ```
 
 ---
