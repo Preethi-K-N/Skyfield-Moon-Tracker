@@ -1,0 +1,27 @@
+🌙 MOON PHASE INFORMATION 🌙
+═══════════════════════════════════════════════════════
+
+📅 Date: Sunday, May 18, 2025
+🌙 Phase: Waxing Gibbous
+💡 Illumination: 24.90% (24.9%)
+📏 Moon Age: 9.85 days since new moon
+📐 Elongation: 120.14°
+
+🔮 UPCOMING PHASES:
+═══════════════════════════════════════════════════════
+Next New Moon: ~19.7 days
+Next Full Moon: ~4.9 days
+
+📊 TECHNICAL DATA:
+═══════════════════════════════════════════════════════
+Synodic Month: 29.53 days (average)
+Current Position in Cycle: 33.4%
+Phase Angle: 120.14°
+
+📁 FILES IN THIS FOLDER:
+═══════════════════════════════════════════════════════
+• 01_Comprehensive_Moon_Analysis.png - Detailed 4-panel visualization
+• 02_NASA_Moon_Image.jpg - Real NASA moon photograph (if available)
+• 03_Moon_Info.txt - This information file
+
+Generated on: 2025-08-30 at 23:56:12
