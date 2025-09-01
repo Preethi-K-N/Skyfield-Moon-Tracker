@@ -121,4 +121,4 @@ Skyfield-Moon-Tracker
 
 This project is licensed under the **MIT License**. This means you are free to use, copy, modify, merge, publish, distribute, and sell copies of the software. The only requirement is to include the original copyright notice and a copy of the license in any substantial portions of the software.
 
-For more details, see the `LICENSE` file in the repository.
+For more details, see the [LICENSE](LICENSE) file in the repository.
