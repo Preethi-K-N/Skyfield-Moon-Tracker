@@ -1,5 +1,6 @@
 # 🌙 Skyfield-Moon-Tracker
 
+<img width="2048" height="1747" alt="Moon tracker" src="https://github.com/user-attachments/assets/a4da5093-582d-435a-adcc-70b9d3dd43f7" />
 
 *<p align="center">A high-precision command-line tool for calculating and visualizing the phase of the Moon for any given date.</p>*
 
